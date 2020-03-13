@@ -27,4 +27,6 @@ else
 	config=$(echo $config | cut -b3-)
 	config="~/repos/.tmux/$config"
 	./newconf.sh "$config"
+	mkdir -p ~/bin
+	cp ./dpnd/* ~/bin 
 fi
