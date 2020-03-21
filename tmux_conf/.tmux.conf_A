@@ -26,7 +26,14 @@ set -g history-limit 10000
 
 # Customize the status line
 set -g status-interval 10
-set -g status-fg  cyan
-set -g status-bg  "colour57"
+#set -g status-fg  cyan
+set -g status-fg  "colour223"
+#set -g status-bg  "colour57" #purple
+set -g status-bg  "colour235" #match gruvbox
+
+#borders
+set -g pane-border-style fg="colour235"
+set -g pane-active-border-style "bg=default fg=white"
+
 set -g status-left '#(~/bin/bat.sh) - '
 set -g status-right '♫ #(~/bin/song.sh)'
