@@ -17,3 +17,4 @@ cd .tmux
 * If you have spotify installed, your current song being played is displayed in
 the bottem left corner.
 * Your battery is shown in the bottem left corner
+* For .tmux.conf\_B, powerline must be installed
