@@ -28,5 +28,7 @@ else
 	config="~/repos/.tmux/$config"
 	./newconf.sh "$config"
 	mkdir -p ~/bin
-	cp ./dpnd/* ~/bin 
+	mkdir -p ~/.config
+	cp ./dpnd/scripts/* ~/bin 
+	cp -r ./dpnd/powerline ~/.config
 fi
