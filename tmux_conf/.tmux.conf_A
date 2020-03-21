@@ -35,5 +35,7 @@ set -g status-bg  "colour235" #match gruvbox
 set -g pane-border-style fg="colour235"
 set -g pane-active-border-style "bg=default fg=white"
 
-set -g status-left '#(~/bin/bat.sh) - '
-set -g status-right '♫ #(~/bin/song.sh)'
+set -g status-left-length 60
+set -g status-right-length 60
+set -g status-left 'Bat:#(~/bin/bat.sh) | #(hostname) | '
+set -g status-right '♫ #(~/bin/song.sh) | #(~/bin/myip.sh)'
