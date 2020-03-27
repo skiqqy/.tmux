@@ -1,7 +1,15 @@
 # .tmux
 
 ## Installing
+Clone inside ~/repos, then run the install script and follow the instructions
+
+Or, copy the following, and paste it in your terminal
 ````
+cd
+mkdir repos
+cd repos
+git clone https://github.com/skippy404/.tmux
+cd .tmux
 ./install.sh
 ````
 Please note, there are dependencies, namely powerline, and powerline-fonts,
@@ -36,20 +44,6 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
-````
-
-### Installing tmux configs
-
-Clone inside ~/repos, then run the install script and follow the instructions
-
-Or, copy the following, and paste it in your terminal
-````
-cd
-mkdir repos
-cd repos
-git clone https://github.com/skippy404/.tmux
-cd .tmux
-./install.sh
 ````
 
 ## Changing configs
