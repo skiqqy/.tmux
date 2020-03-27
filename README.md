@@ -1,6 +1,9 @@
 # .tmux
 
 ## Installing
+````
+./install.sh
+````
 Please note, there are dependencies, namely powerline, and powerline-fonts,
 currently these depenencies are only needed for config B, the rest of the
 configs can be used safely. 
