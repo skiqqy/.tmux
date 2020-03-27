@@ -63,3 +63,12 @@ Example: `./newconf ~/repos/.tmux/tmux_conf/.tmux.conf_A`
 the bottem left corner (When using config A).
 * Your battery is shown in the bottem left corner (When using config A)
 * For .tmux.conf\_B, powerline must be installed
+
+## Config Examples
+
+### .tmux.conf\_A
+
+![Config A](https://i.imgur.com/qgLaC70.jpg)
+
+### .tmux.comf\_B
+![Config\_B](https://i.imgur.com/7YrW5qp.jpg)
