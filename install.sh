@@ -31,4 +31,6 @@ else
 	mkdir -p ~/.config
 	cp ./dpnd/scripts/* ~/bin 
 	cp -r ./dpnd/powerline ~/.config
+	cd
+	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
