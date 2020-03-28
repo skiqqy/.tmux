@@ -13,7 +13,7 @@
 5. [Config-Examples](#Config-Examples)
 
 ## Installing
-Clone inside ~/repos, then run the install script and follow the instructions
+Clone anywhere, then run the install script and follow the instructions
 
 Or, copy the following, and paste it in your terminal
 ````
