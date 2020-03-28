@@ -25,7 +25,8 @@ if [ $flag = 0 ]; then
 	printf "Invalid config selected\n"
 else
 	config=$(echo $config | cut -b3-)
-	config="~/repos/.tmux/$config"
+	#config="~/repos/.tmux/$config"
+	config="$(pwd)/$config"
 	./newconf.sh "$config"
 	mkdir -p ~/bin
 	mkdir -p ~/.config
