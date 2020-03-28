@@ -4,7 +4,7 @@
 
 ## Table of Contents
 1. [Installing](#Installing)
-    1. [Dependencies](###Installing-the-dependencies)
+    1. [Dependencies](#Installing-the-dependencies)
 	    1. [Powerline](#Powerline)
 		2. [Powerline-Fonts](#Powerline-Fonts)
 2. [Change Configs](#Changing-Configs)
