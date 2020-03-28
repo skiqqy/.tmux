@@ -1,3 +1,5 @@
+old=$(pwd)
+cd "/$(tmux lsw -F '#{window_name}#{window_active}#{pane_current_path}' | grep 1/ | sed 's/^.*1\///')"
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
@@ -45,3 +47,4 @@ function parse_git_dirty {
 	fi
 }
 echo $(parse_git_branch)
+cd $old
