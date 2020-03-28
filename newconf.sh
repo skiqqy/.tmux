@@ -4,8 +4,8 @@ else
 	eval file="$1"
 	if [ -f "$file" ]; then
 		printf "file $file is being loaded\n"
-		mkdir -p ~/.backup
-		mv ~/.tmux.conf ~/.backup
+		mkdir -p ~/.backup/tmux
+		mv -f ~/.tmux.conf ~/.backup/tmux
 		ln -s $file ~/.tmux.conf
 	else
 		printf "File DNE\n"

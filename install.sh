@@ -33,5 +33,7 @@ else
 	cp ./dpnd/scripts/* ~/bin 
 	cp -r ./dpnd/powerline ~/.config
 	cd
+	mkdir -p ~/.backup/tmux
+	mv -rf ~/.tmux/* ~/.backup/tmux
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
