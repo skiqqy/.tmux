@@ -1,5 +1,4 @@
-old=$(pwd)
-cd "/$(tmux lsw -F '#{window_name}#{window_active}#{pane_current_path}' | grep 1/ | sed 's/^.*1\///')"
+path=$(echo "/$(tmux lsw -F '#{window_name}#{window_active}#{pane_current_path}' | grep 1/ | sed 's/^.*1\///')")
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
@@ -14,7 +13,8 @@ function parse_git_branch() {
 
 # get current status of git repo
 function parse_git_dirty {
-	status=`git status 2>&1 | tee`
+	#status=`git status 2>&1 | tee`
+	status=`git -C $path status 2>&1 | tee`
 	dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
 	untracked=`echo -n "${status}" 2> /dev/null | grep "Untracked files" &> /dev/null; echo "$?"`
 	ahead=`echo -n "${status}" 2> /dev/null | grep "Your branch is ahead of" &> /dev/null; echo "$?"`
@@ -47,4 +47,3 @@ function parse_git_dirty {
 	fi
 }
 echo $(parse_git_branch)
-cd $old
