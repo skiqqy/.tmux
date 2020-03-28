@@ -1,5 +1,7 @@
 # .tmux
 
+[![Build Status](https://travis-ci.com/Skippy404/.tmux.svg?branch=master)](https://travis-ci.com/Skippy404/.tmux)
+
 ## Table of Contents
 1. [Installing](#Installing)
     1. [Dependencies](###Installing-the-dependencies)
