@@ -13,7 +13,13 @@
 5. [Config-Examples](#Config-Examples)
 
 ## Installing
-Clone anywhere, then run the install script and follow the instructions
+Clone anywhere, then run the install script and follow the instructions,
+Alternatively, you can run the following, to install the tmux configs and my
+other [dotfiles](https://github.com/skippy404/.dotfilesMinimal) (aka my vim, bash
+and zsh configs, as well as other scripts)
+````
+wget yggpi.co.za/install.sh && chmod+x install.sh && ./install.sh
+````
 
 Or, copy the following, and paste it in your terminal
 ````
