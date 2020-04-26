@@ -46,7 +46,7 @@ yay -S powerline
 ````
 * Fedora
 ````
-sudo dnf install powerline
+sudo dnf install powerline tmux-powerline
 ````
 * Ubuntu
 ````
