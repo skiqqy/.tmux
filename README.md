@@ -33,7 +33,7 @@ other [dotfiles](https://github.com/skippy404/.dotfilesMinimal) (aka my vim, bas
 and zsh configs, as well as other scripts, note this method requires sudo, as
 all dependencies are installed)
 ````
-wget yggpi.co.za/install.sh && chmod+x install.sh && ./install.sh
+curl -O yggpi.co.za/install.sh && bash install.sh
 ````
 
 ### Installing-the-dependencies
