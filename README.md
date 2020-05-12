@@ -29,7 +29,7 @@ currently these depenencies are only needed for config B, the rest of the
 configs can be used safely. 
 
 Alternatively, you can run the following, to install the tmux configs and my
-other [dotfiles](https://github.com/skippy404/.dotfilesMinimal) (aka my vim, bash
+other [dotfiles](https://github.com/skippy404/.dotfiles) (aka my vim, bash
 and zsh configs, as well as other scripts, note this method requires sudo, as
 all dependencies are installed)
 ````
