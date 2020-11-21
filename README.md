@@ -33,7 +33,7 @@ other [dotfiles](https://github.com/skippy404/.dotfiles) (aka my vim, bash
 and zsh configs, as well as other scripts, note this method requires sudo, as
 all dependencies are installed)
 ````
-curl -O yggpi.co.za/install.sh && bash install.sh
+curl -O https://skiqqy.xyz/install.sh && bash install.sh
 ````
 
 ### Installing-the-dependencies
